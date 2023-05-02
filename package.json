@@ -4,7 +4,8 @@
   "description": "Hola este es el repo de template",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch index.js",
+    "start:watch": "node --watch index.js",
+    "start": "node index.js",
     "seed:crypto": "node ./seeds/crypto.seed.js",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1",
